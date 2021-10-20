@@ -1,0 +1,103 @@
+
+body{
+
+    width: 100vw;
+    height: 100%;
+    background-color: lightskyblue;
+
+    header{
+
+        display: flex;
+        width: 100%;
+        height: 10%;
+        color: white;
+        font-size: 33px;
+        margin-left: 50px;
+    
+        .nbclick{
+    
+            color: black;
+            margin-left: 200px;
+    
+        }
+
+        .click{
+
+            color: black;
+            margin-left: 8px;
+
+        }
+
+        .nbgolds{
+
+            color: gold;
+            margin-left: 200px;
+
+        }
+
+        .golds{
+
+            margin-left: 8px;
+            color: gold;
+
+        }
+    
+    }
+    
+    main{
+    
+        display: flex;
+        width: 100%;
+        height: 80%;
+    
+        .ajout{
+    
+            width: 25%;
+    
+        }
+    
+        .minion{
+        
+            width: 44%;
+    
+            .minionImage{
+    
+                margin-left: 100px;
+                margin-top: 50px;
+    
+            }
+            .minionImage:hover{
+    
+                -webkit-transform: rotate(-30deg);
+                -moz-transform: rotate(-30deg);
+                -ms-transform: rotate(-30deg);
+                -o-transform: rotate(-30deg);
+                transform: rotate(-30deg);
+    
+            }
+    
+        }
+    
+        .passif{
+    
+            width: 28%;
+    
+        }
+    
+        button{
+    
+            display: flex;
+            width: 300px;
+            margin-top: 10px;
+    
+            p{
+    
+                margin-left: 5px;
+    
+            }
+    
+        }
+    
+    }
+}
+
