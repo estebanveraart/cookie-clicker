@@ -54,6 +54,20 @@ body{
     
             width: 25%;
     
+            p{
+
+                display: flex;
+
+            }
+
+            .eplongueG, .dadenteleeG, .brillanG, .bfglaiveG, .draktarrG, .muramG, .rabadonnnG{
+
+                color: gold;
+                font-size: 15px;
+                margin-left: 10px;
+        
+            }
+
         }
     
         .minion{
@@ -99,5 +113,6 @@ body{
         }
     
     }
+
 }
 
